@@ -5,12 +5,12 @@ import {
     createRoutesFromElements,
 } from 'react-router-dom'
 import Main from './layouts/mainLayout'
-import Login from './pages/login'
+import Login from './pages/test'
 
 const router = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<Main />}>
-            <Route index element={<Login />} />
+            <Route path="/test" element={<Login />} />
         </Route>,
     ),
 )
