@@ -1,5 +1,4 @@
 import { MoonStar, Sun } from 'lucide-react'
-// import { BsMoonStarsFill } from "react-icons/bs";
 
 import { Button } from '@src/components/ui/button'
 import {
