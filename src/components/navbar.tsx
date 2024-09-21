@@ -1,29 +1,9 @@
 import { Button } from './ui/button'
-import {
-    NavigationMenu,
-    NavigationMenuContent,
-    NavigationMenuIndicator,
-    NavigationMenuItem,
-    NavigationMenuLink,
-    NavigationMenuList,
-    NavigationMenuTrigger,
-    NavigationMenuViewport,
-    navigationMenuTriggerStyle,
-} from './ui/navigation-menu'
-// import {
-//     DropdownMenu,
-//     DropdownMenuContent,
-//     DropdownMenuItem,
-//     DropdownMenuLabel,
-//     DropdownMenuTrigger,
-//     DropdownMenuSeparator,
-// } from './ui/dropdown-menu'
 
 import { ModeToggle } from './mode-toggle'
 const navbar = () => {
     return (
         <>
-            {/* element 4 */}
             <nav className="bg-black p-2">
                 <div className="absolute">
                     <ModeToggle />
@@ -40,8 +20,7 @@ const navbar = () => {
                 </div>
             </nav>
 
-            {/* element 5 */}
-
+            {/* 
             <nav className="bg-pink-700 p-4">
                 <NavigationMenu>
                     <NavigationMenuList className="flex justify-center space-x-4">
@@ -96,7 +75,7 @@ const navbar = () => {
                     // className="absolute top-full left-0 w-full bg-white shadow-lg"
                     />
                 </NavigationMenu>
-            </nav>
+            </nav> */}
         </>
     )
 }
