@@ -3,13 +3,13 @@ import { NavigationMenu, NavigationMenuLink } from './ui/navigation-menu'
 import { ModeToggle } from './mode-toggle'
 const Navbar = () => {
     return (
-        <nav className="bg-black p-1">
-            <div className="container mx-auto flex justify-between items-center">
+        <nav className="bg-black h-12">
+            <div className="container mx-auto flex justify-between items-center relative">
                 <div className="flex items-center">
                     <ModeToggle />
                 </div>
-                <div className="flex items-center">
-                    <img src="../../logo cropped.svg" alt="Logo" className="h-16" />
+                <div className="absolute left-1/2 transform -translate-x-1/2">
+                    <img src="../../logo cropped.svg" alt="Logo" className="h-10" />
                 </div>
                 <div className="flex">
                     <NavigationMenu>
