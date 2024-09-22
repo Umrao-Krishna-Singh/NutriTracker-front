@@ -3,7 +3,7 @@ import { NavigationMenu, NavigationMenuLink } from './ui/navigation-menu'
 import { ModeToggle } from './mode-toggle'
 const Navbar = () => {
     return (
-        <nav className="bg-black h-12">
+        <nav className="bg-black absolute w-full h-12">
             <div className="container mx-auto flex justify-between items-center relative">
                 <div className="flex items-center">
                     <ModeToggle />
