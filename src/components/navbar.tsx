@@ -1,7 +1,7 @@
 import { NavigationMenu, NavigationMenuLink } from './ui/navigation-menu'
 
 import { ModeToggle } from './mode-toggle'
-const navbar = () => {
+const Navbar = () => {
     return (
         <nav className="bg-black p-1">
             <div className="container mx-auto flex justify-between items-center">
@@ -31,4 +31,4 @@ const navbar = () => {
         </nav>
     )
 }
-export default navbar
+export default Navbar
