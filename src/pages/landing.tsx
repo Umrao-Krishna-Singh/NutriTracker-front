@@ -17,9 +17,7 @@ const Landing = () => {
 
             return await axios(config)
         },
-        onSuccess: (data) => {
-            console.log(1111, data)
-        },
+        onSuccess: (data) => {},
     })
 
     const submitFunc = async (e: React.FormEvent<HTMLFormElement>) => {
